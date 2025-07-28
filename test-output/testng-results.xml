@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-28T23:18:51 IST" name="FastAPI Test Suite" finished-at="2025-07-28T23:18:55 IST" duration-ms="4144">
+    <groups>
+    </groups>
+    <test started-at="2025-07-28T23:18:51 IST" name="API Tests" finished-at="2025-07-28T23:18:55 IST" duration-ms="4144">
+      <class name="tests.VerifyPositiveScenarioForUserAccountTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.VerifyPositiveScenarioForUserAccountTest@1b7cc17c]" started-at="2025-07-28T23:18:50 IST" name="init" finished-at="2025-07-28T23:18:51 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="NewUserCreation()[pri:1, instance:tests.VerifyPositiveScenarioForUserAccountTest@1b7cc17c]" started-at="2025-07-28T23:18:51 IST" name="NewUserCreation" finished-at="2025-07-28T23:18:52 IST" duration-ms="1367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewUserCreation -->
+        <test-method signature="GenerateNewTokentoAccessUser()[pri:2, instance:tests.VerifyPositiveScenarioForUserAccountTest@1b7cc17c]" started-at="2025-07-28T23:18:52 IST" name="GenerateNewTokentoAccessUser" finished-at="2025-07-28T23:18:53 IST" depends-on-methods="tests.VerifyPositiveScenarioForUserAccountTest.NewUserCreation" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateNewTokentoAccessUser -->
+        <test-method signature="GetServerHealthStatus()[pri:3, instance:tests.VerifyPositiveScenarioForUserAccountTest@1b7cc17c]" started-at="2025-07-28T23:18:53 IST" name="GetServerHealthStatus" finished-at="2025-07-28T23:18:53 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetServerHealthStatus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.VerifyPositiveScenarioForUserAccountTest@1b7cc17c]" started-at="2025-07-28T23:18:55 IST" name="tearDown" finished-at="2025-07-28T23:18:55 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.VerifyPositiveScenarioForUserAccountTest -->
+      <class name="tests.VerifyNegativeScenarioUserAndBook">
+        <test-method signature="createBookInCollection()[pri:0, instance:tests.VerifyNegativeScenarioUserAndBook@1bd4fdd]" started-at="2025-07-28T23:18:54 IST" name="createBookInCollection" finished-at="2025-07-28T23:18:54 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookInCollection -->
+        <test-method signature="deleteBookFromCollection()[pri:0, instance:tests.VerifyNegativeScenarioUserAndBook@1bd4fdd]" started-at="2025-07-28T23:18:54 IST" name="deleteBookFromCollection" finished-at="2025-07-28T23:18:54 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookFromCollection -->
+        <test-method signature="testBookIsAdded()[pri:0, instance:tests.VerifyNegativeScenarioUserAndBook@1bd4fdd]" started-at="2025-07-28T23:18:54 IST" name="testBookIsAdded" finished-at="2025-07-28T23:18:54 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookIsAdded -->
+        <test-method signature="testGenerateTokenInvalidCredentials()[pri:0, instance:tests.VerifyNegativeScenarioUserAndBook@1bd4fdd]" started-at="2025-07-28T23:18:54 IST" name="testGenerateTokenInvalidCredentials" finished-at="2025-07-28T23:18:54 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateTokenInvalidCredentials -->
+        <test-method signature="test_CreateUserWhenPayloadDataMissing()[pri:0, instance:tests.VerifyNegativeScenarioUserAndBook@1bd4fdd]" started-at="2025-07-28T23:18:54 IST" name="test_CreateUserWhenPayloadDataMissing" finished-at="2025-07-28T23:18:54 IST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CreateUserWhenPayloadDataMissing -->
+        <test-method signature="test_CreateUserWithInvalidPassword()[pri:0, instance:tests.VerifyNegativeScenarioUserAndBook@1bd4fdd]" started-at="2025-07-28T23:18:54 IST" name="test_CreateUserWithInvalidPassword" finished-at="2025-07-28T23:18:55 IST" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_CreateUserWithInvalidPassword -->
+        <test-method signature="updateBookInCollection()[pri:0, instance:tests.VerifyNegativeScenarioUserAndBook@1bd4fdd]" started-at="2025-07-28T23:18:55 IST" name="updateBookInCollection" finished-at="2025-07-28T23:18:55 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBookInCollection -->
+        <test-method signature="checkIfBookDeleted()[pri:1, instance:tests.VerifyNegativeScenarioUserAndBook@1bd4fdd]" started-at="2025-07-28T23:18:55 IST" name="checkIfBookDeleted" finished-at="2025-07-28T23:18:55 IST" depends-on-methods="tests.VerifyPositiveScenarioForUserAccountTest.GenerateNewTokentoAccessUser, tests.VerifyPositiveScenarioForUserAccountTest.NewUserCreation" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfBookDeleted -->
+      </class> <!-- tests.VerifyNegativeScenarioUserAndBook -->
+      <class name="tests.VerifyPositiveScenarioForBookTest">
+        <test-method signature="createBookInCollection()[pri:1, instance:tests.VerifyPositiveScenarioForBookTest@35e2d654]" started-at="2025-07-28T23:18:53 IST" name="createBookInCollection" finished-at="2025-07-28T23:18:53 IST" depends-on-methods="tests.VerifyPositiveScenarioForUserAccountTest.GenerateNewTokentoAccessUser, tests.VerifyPositiveScenarioForUserAccountTest.NewUserCreation" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookInCollection -->
+        <test-method signature="testGetAllBooks()[pri:2, instance:tests.VerifyPositiveScenarioForBookTest@35e2d654]" started-at="2025-07-28T23:18:53 IST" name="testGetAllBooks" finished-at="2025-07-28T23:18:53 IST" depends-on-methods="tests.VerifyPositiveScenarioForBookTest.createBookInCollection" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllBooks -->
+        <test-method signature="updateBookInCollection()[pri:3, instance:tests.VerifyPositiveScenarioForBookTest@35e2d654]" started-at="2025-07-28T23:18:53 IST" name="updateBookInCollection" finished-at="2025-07-28T23:18:53 IST" depends-on-methods="tests.VerifyPositiveScenarioForBookTest.createBookInCollection" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBookInCollection -->
+        <test-method signature="deleteBookFromCollection()[pri:4, instance:tests.VerifyPositiveScenarioForBookTest@35e2d654]" started-at="2025-07-28T23:18:53 IST" name="deleteBookFromCollection" finished-at="2025-07-28T23:18:53 IST" depends-on-methods="tests.VerifyPositiveScenarioForBookTest.createBookInCollection" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookFromCollection -->
+        <test-method signature="checkIfBookDeleted()[pri:5, instance:tests.VerifyPositiveScenarioForBookTest@35e2d654]" started-at="2025-07-28T23:18:53 IST" name="checkIfBookDeleted" finished-at="2025-07-28T23:18:54 IST" depends-on-methods="tests.VerifyPositiveScenarioForBookTest.deleteBookFromCollection" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfBookDeleted -->
+      </class> <!-- tests.VerifyPositiveScenarioForBookTest -->
+    </test> <!-- API Tests -->
+  </suite> <!-- FastAPI Test Suite -->
+</testng-results>

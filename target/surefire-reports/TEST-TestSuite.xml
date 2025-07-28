@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.061" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\BOOKSTOREAPI-Automation\BookStoreAPIAutomation\target\test-classes;C:\BOOKSTOREAPI-Automation\BookStoreAPIAutomation\target\classes;C:\Users\Niwas\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Niwas\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Niwas\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Niwas\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Niwas\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Niwas\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Niwas\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Niwas\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Niwas\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Niwas\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Niwas\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Niwas\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Niwas\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Niwas\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Niwas\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Niwas\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Niwas\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Niwas\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Niwas\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Niwas\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Niwas\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Niwas\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Niwas\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Niwas\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Niwas\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Niwas\AppData\Local\Temp\surefire15815969309650001693\surefirebooter-20250729004541354_3.jar C:\Users\Niwas\AppData\Local\Temp\surefire15815969309650001693 2025-07-29T00-45-41_249-jvmRun1 surefire-20250729004541354_1tmp surefire_0-20250729004541354_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\BOOKSTOREAPI-Automation\BookStoreAPIAutomation\target\test-classes;C:\BOOKSTOREAPI-Automation\BookStoreAPIAutomation\target\classes;C:\Users\Niwas\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Niwas\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Niwas\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Niwas\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Niwas\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Niwas\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Niwas\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Niwas\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Niwas\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Niwas\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Niwas\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Niwas\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Niwas\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Niwas\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Niwas\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Niwas\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Niwas\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Niwas\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Niwas\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Niwas\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Niwas\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Niwas\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Niwas\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Niwas\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Niwas\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Niwas"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\BOOKSTOREAPI-Automation\BookStoreAPIAutomation"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Niwas\AppData\Local\Temp\surefire15815969309650001693\surefirebooter-20250729004541354_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.5+11-LTS"/>
+    <property name="user.name" value="Niwas"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.5+11"/>
+    <property name="localRepository" value="C:\Users\Niwas\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Niwas\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.5"/>
+    <property name="user.dir" value="C:\BOOKSTOREAPI-Automation\BookStoreAPIAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957/jre/bin/server;C:/Eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\HP\OMEN-Broadcast\Common;C:\Program Files\HP\HP One Agent;C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Niwas\AppData\Local\Programs\Python\Launcher\;C:\Users\Niwas\AppData\Local\Microsoft\WindowsApps;C:\Users\Niwas\AppData\Local\Programs\Python\Python313;C:\Users\Niwas\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\Niwas\AppData\Roaming\npm;C:\Users\Niwas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.5+11-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="NewUserCreation" classname="tests.VerifyPositiveScenarioForUserAccountTest" time="1.761">
+    <system-out><![CDATA[API Response Data for Newly Created user: {"message":"User created successfully"}
+Created User successfully with Email Id: user737@BookStore.com
+Created User successfully with Id: 1281758384
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="GenerateNewTokentoAccessUser" classname="tests.VerifyPositiveScenarioForUserAccountTest" time="1.254">
+    <system-out><![CDATA[API Response data for Generated Access Token is :- {"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyNzM3QEJvb2tTdG9yZS5jb20iLCJleHAiOjE3NTM3MzE5NDZ9.8Mwa5ZdS9dldOCNc1oMPr21uzZPkMt8_K8_oSAA6e0o","token_type":"bearer"}
+API Response data for Generated Access Token Type: bearer
+]]></system-out>
+  </testcase>
+  <testcase name="GetServerHealthStatus" classname="tests.VerifyPositiveScenarioForUserAccountTest" time="0.031">
+    <system-out><![CDATA[API Response Data to Get Uvicorn Server Health: {"status":"up"}
+]]></system-out>
+  </testcase>
+  <testcase name="createBookInCollection" classname="tests.VerifyPositiveScenarioForBookTest" time="0.085">
+    <system-out><![CDATA[USER Access Token Used :-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyNzM3QEJvb2tTdG9yZS5jb20iLCJleHAiOjE3NTM3MzE5NDZ9.8Mwa5ZdS9dldOCNc1oMPr21uzZPkMt8_K8_oSAA6e0o
+Response Data for Create book is:- {"name":"Mathematics","published_year":1988,"author":"SriNiwas Ramanujan","id":1575069453,"book_summary":"Basics of Maths Concept"}
+Created Book Name Listed under Book Collection: Mathematics
+Created Bookid Listed under Book Collection: 1575069453
+Author Name Listed under Book Collection: SriNiwas Ramanujan
+Book PublishedYear Listed under Book Collection: 1988
+Book SummaryName Listed under Book Collection: Basics of Maths Concept
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAllBooks" classname="tests.VerifyPositiveScenarioForBookTest" time="0.041">
+    <system-out><![CDATA[Response Data for checking if book created: {"name":"Mathematics","published_year":1988,"author":"SriNiwas Ramanujan","id":1575069453,"book_summary":"Basics of Maths Concept"}
+]]></system-out>
+  </testcase>
+  <testcase name="updateBookInCollection" classname="tests.VerifyPositiveScenarioForBookTest" time="0.047">
+    <system-out><![CDATA[Response Data for update Books Is : {"name":"Advance Mathematics","published_year":1988,"author":"Er. Niwas Kumar Yadav","id":1575069453,"book_summary":"Basics of Maths Concept"}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteBookFromCollection" classname="tests.VerifyPositiveScenarioForBookTest" time="0.032">
+    <system-out><![CDATA[Token used for Book Deletion Is :- eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyNzM3QEJvb2tTdG9yZS5jb20iLCJleHAiOjE3NTM3MzE5NDZ9.8Mwa5ZdS9dldOCNc1oMPr21uzZPkMt8_K8_oSAA6e0o
+Response Data for delete book Is :- {"message":"Book deleted successfully"}
+DELETE Response is empty as expected
+]]></system-out>
+  </testcase>
+  <testcase name="checkIfBookDeleted" classname="tests.VerifyPositiveScenarioForBookTest" time="0.023">
+    <system-out><![CDATA[Book not found: {"detail":"Book not found"}
+]]></system-out>
+  </testcase>
+  <testcase name="createBookInCollection" classname="tests.VerifyNegativeScenarioUserAndBook" time="0.021">
+    <system-out><![CDATA[Response Data for Create book without authorisation: {"detail":"Not authenticated"}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteBookFromCollection" classname="tests.VerifyNegativeScenarioUserAndBook" time="0.03">
+    <system-out><![CDATA[Response Data for delete books with passing wrong Bookid: {"detail":"Book not found"}
+]]></system-out>
+  </testcase>
+  <testcase name="testBookIsAdded" classname="tests.VerifyNegativeScenarioUserAndBook" time="0.021">
+    <system-out><![CDATA[TOKEN Used :eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyNzM3QEJvb2tTdG9yZS5jb20iLCJleHAiOjE3NTM3MzE5NDZ9.8Mwa5ZdS9dldOCNc1oMPr21uzZPkMt8_K8_oSAA6e0o
+Response Data for get user with wrong BooKid: {"detail":"Book not found"}
+]]></system-out>
+  </testcase>
+  <testcase name="testGenerateTokenInvalidCredentials" classname="tests.VerifyNegativeScenarioUserAndBook" time="0.021">
+    <system-out><![CDATA[Response Data for generate token with invalid credentials: {"detail":"Incorrect email or password"}
+]]></system-out>
+  </testcase>
+  <testcase name="test_CreateUserWhenPayloadDataMissing" classname="tests.VerifyNegativeScenarioUserAndBook" time="0.629">
+    <system-out><![CDATA[Response Data for create user when Payload data missing :-Internal Server Error
+]]></system-out>
+  </testcase>
+  <testcase name="test_CreateUserWithInvalidPassword" classname="tests.VerifyNegativeScenarioUserAndBook" time="0.691">
+    <system-out><![CDATA[Response Data for create user with Invalid/Empty password: Internal Server Error
+]]></system-out>
+  </testcase>
+  <testcase name="updateBookInCollection" classname="tests.VerifyNegativeScenarioUserAndBook" time="0.026">
+    <system-out><![CDATA[Response Data for update books with Wrong BooKid: {"detail":"Book not found"}
+]]></system-out>
+  </testcase>
+  <testcase name="checkIfBookDeleted" classname="tests.VerifyNegativeScenarioUserAndBook" time="0.03"/>
+</testsuite>

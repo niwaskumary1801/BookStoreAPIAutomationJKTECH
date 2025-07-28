@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ConfigFileReader.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">BookStore_usingfastserver</a> &gt; <a href="index.source.html" class="el_package">config</a> &gt; <span class="el_source">ConfigFileReader.java</span></div><h1>ConfigFileReader.java</h1><pre class="source lang-java linenums">package config;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+<span class="nc" id="L6">public class ConfigFileReader </span>
+{
+<span class="fc" id="L8">	private static Properties propread = new Properties();</span>
+
+    static {
+        try {
+<span class="fc" id="L12">            FileInputStream fis = new FileInputStream(&quot;ApplicationConfig.properties&quot;);</span>
+<span class="fc" id="L13">            propread.load(fis);</span>
+<span class="nc" id="L14">        } catch (Exception e) {</span>
+<span class="nc" id="L15">            throw new RuntimeException(&quot;Unable to load ApplicationConfig.properties&quot;, e);</span>
+<span class="fc" id="L16">        }</span>
+<span class="fc" id="L17">    }</span>
+
+    public static String get(String key) {
+<span class="fc" id="L20">        return propread.getProperty(key);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
